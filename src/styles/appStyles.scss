@@ -1,0 +1,19 @@
+@import 'themeColors';
+$theme-font: verdana, sans-serif;
+
+body {
+  font: $theme-font;
+  background-color: $themeColor-Light;
+  h1, h2 {
+      color: $themeColor-Dark
+  }
+  canvas {
+    display : block;
+    width : 1280px;
+    height : 720px;
+    margin : auto;
+    padding : 0;
+    border : none;
+    background-color : black;
+  }
+}
