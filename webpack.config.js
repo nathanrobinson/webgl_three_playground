@@ -9,7 +9,7 @@ module.exports = {
     devtool: 'inline-source-map',
     mode: "development",
     devServer: {
-        contentBase: './dist',
+        contentBase: './src',
         port: 4433
     },
     plugins: [

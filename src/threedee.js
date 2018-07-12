@@ -34,7 +34,7 @@ export class ThreeDee {
         //const lightTexture = this.loadTexture( "./images/light.jpg" );
         //const bumpTexture = this.loadTexture( "./images/bump.jpg" );
           
-        const geometry = new THREE.SphereGeometry(0.2, 100, 100);//.BoxGeometry( 0.2, 0.2, 0.2 );
+        const geometry = new THREE.SphereGeometry(0.5, 100, 100);//.BoxGeometry( 0.2, 0.2, 0.2 );
         const material = new THREE.MeshStandardMaterial({
             /** geometry color in hexadecimal. Default is 0xffffff. */
             //color: 0xABCDEF,
@@ -52,7 +52,7 @@ export class ThreeDee {
         this.mesh = new THREE.Mesh( geometry, material );
         this.scene.add( this.mesh );
         
-        const geometry2 = new THREE.SphereGeometry(0.05, 100, 100);//.BoxGeometry( 0.2, 0.2, 0.2 );        
+        const geometry2 = new THREE.SphereGeometry(0.05, 100, 10);//.0BoxGeometry( 0.2, 0.2, 0.2 );        
         const material2 = new THREE.MeshStandardMaterial({
             /** geometry color in hexadecimal. Default is 0xffffff. */
             //color: 0xABCDEF,
